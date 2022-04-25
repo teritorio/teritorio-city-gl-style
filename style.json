@@ -1,6 +1,6 @@
 {
   "version": 8,
-  "name": "Teritorio Tourism",
+  "name": "Teritorio City",
   "metadata": {
     "mapbox:autocomposite": false,
     "mapbox:groups": {
@@ -32,7 +32,7 @@
       "url": "https://vecto.teritorio.xyz/data/alti.json?key={key}"
     }
   },
-  "sprite": "https://vecto.teritorio.xyz/styles/teritorio-tourism/sprite",
+  "sprite": "https://vecto.teritorio.xyz/styles/teritorio-city/sprite",
   "glyphs": "https://vecto.teritorio.xyz/fonts/{fontstack}/{range}.pbf?key={key}",
   "layers": [
     {
@@ -2818,7 +2818,7 @@
       "id": "poi-level-3-picto",
       "type": "symbol",
       "source": "openmaptiles",
-      "source-layer": "poi_tourism",
+      "source-layer": "poi_city",
       "minzoom": 15,
       "filter": [
         "all",
@@ -2866,7 +2866,7 @@
       "id": "poi-level-2-picto",
       "type": "symbol",
       "source": "openmaptiles",
-      "source-layer": "poi_tourism",
+      "source-layer": "poi_city",
       "minzoom": 14,
       "filter": [
         "all",
@@ -2914,7 +2914,7 @@
       "id": "poi-level-1-picto",
       "type": "symbol",
       "source": "openmaptiles",
-      "source-layer": "poi_tourism",
+      "source-layer": "poi_city",
       "minzoom": 12,
       "filter": [
         "all",
@@ -3353,7 +3353,7 @@
       "id": "poi-level-3",
       "type": "symbol",
       "source": "openmaptiles",
-      "source-layer": "poi_tourism",
+      "source-layer": "poi_city",
       "minzoom": 15,
       "filter": [
         "all",
@@ -3444,7 +3444,7 @@
       "id": "poi-level-2",
       "type": "symbol",
       "source": "openmaptiles",
-      "source-layer": "poi_tourism",
+      "source-layer": "poi_city",
       "minzoom": 14,
       "filter": [
         "all",
@@ -3535,7 +3535,7 @@
       "id": "poi-level-1",
       "type": "symbol",
       "source": "openmaptiles",
-      "source-layer": "poi_tourism",
+      "source-layer": "poi_city",
       "minzoom": 12,
       "filter": [
         "all",
@@ -3974,5 +3974,5 @@
       }
     }
   ],
-  "id": "teritorio-tourism"
+  "id": "teritorio-city"
 }
