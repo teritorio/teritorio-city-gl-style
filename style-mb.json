@@ -1271,6 +1271,31 @@
       }
     },
     {
+      "id": "housenumber",
+      "type": "symbol",
+      "source": "openmaptiles",
+      "source-layer": "housenumber",
+      "minzoom": 17,
+      "filter": [
+        "==",
+        "$type",
+        "Point"
+      ],
+      "layout": {
+        "text-field": [
+          "get",
+          "housenumber"
+        ],
+        "text-font": [
+          "Noto Sans Regular"
+        ],
+        "text-size": 10
+      },
+      "paint": {
+        "text-color": "rgba(160, 160, 160, 1)"
+      }
+    },
+    {
       "id": "tunnel-service-track-casing",
       "type": "line",
       "metadata": {
@@ -8007,14 +8032,8 @@
               "#2a62ac",
               "catering",
               "#f09007",
-              "craft",
-              "#c58511",
               "culture",
               "#76009e",
-              "culture_shopping",
-              "#76009e",
-              "education",
-              "#4076f6",
               "hosting",
               "#99163a",
               "leisure",
@@ -8023,8 +8042,6 @@
               "#00a0c4",
               "mobility",
               "#3b74b9",
-              "nature",
-              "#70b06a",
               "products",
               "#f25c05",
               "public_landmark",
@@ -8035,12 +8052,8 @@
               "#e42224",
               "services",
               "#2a62ac",
-              "services_shopping",
-              "#2a62ac",
               "shopping",
               "#808080",
-              "social_services",
-              "#006660",
               "#666"
             ]
           ]
@@ -8213,14 +8226,8 @@
               "#2a62ac",
               "catering",
               "#f09007",
-              "craft",
-              "#c58511",
               "culture",
               "#76009e",
-              "culture_shopping",
-              "#76009e",
-              "education",
-              "#4076f6",
               "hosting",
               "#99163a",
               "leisure",
@@ -8229,8 +8236,6 @@
               "#00a0c4",
               "mobility",
               "#3b74b9",
-              "nature",
-              "#70b06a",
               "products",
               "#f25c05",
               "public_landmark",
@@ -8241,12 +8246,8 @@
               "#e42224",
               "services",
               "#2a62ac",
-              "services_shopping",
-              "#2a62ac",
               "shopping",
               "#808080",
-              "social_services",
-              "#006660",
               "#666"
             ]
           ]
@@ -8411,14 +8412,8 @@
               "#2a62ac",
               "catering",
               "#f09007",
-              "craft",
-              "#c58511",
               "culture",
               "#76009e",
-              "culture_shopping",
-              "#76009e",
-              "education",
-              "#4076f6",
               "hosting",
               "#99163a",
               "leisure",
@@ -8427,8 +8422,6 @@
               "#00a0c4",
               "mobility",
               "#3b74b9",
-              "nature",
-              "#70b06a",
               "products",
               "#f25c05",
               "public_landmark",
@@ -8439,12 +8432,8 @@
               "#e42224",
               "services",
               "#2a62ac",
-              "services_shopping",
-              "#2a62ac",
               "shopping",
               "#808080",
-              "social_services",
-              "#006660",
               "#666"
             ]
           ]
